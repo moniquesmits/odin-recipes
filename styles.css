@@ -1,0 +1,43 @@
+body {
+    margin: auto;
+    width: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b2b2b2;
+    color: #403F4C;
+    margin-bottom: 50px;
+}
+
+ol.no-numbers {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #403F4C;
+}
+
+a:visited {
+    color: #403F4C;
+}
+
+a:hover {
+    color: #00a151;
+}
+
+a:active {
+    color: #403F4C;
+}
+
+a:link.button, a:visited.button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
